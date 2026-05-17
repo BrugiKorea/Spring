@@ -6,18 +6,14 @@ To repozytorium zawiera zestaw laboratoriów z przedmiotu **Spring Framework / S
 
 W ramach laboratoriów zrealizowano następujące zagadnienia:
 
-- tworzenie aplikacji webowych w Spring Boot (Spring MVC),
-- wykorzystanie Thymeleaf do budowy widoków,
-- tworzenie serwisów i kontrolerów,
-- przechowywanie danych w pamięci aplikacji (kolekcje),
-- implementacja REST API (CRUD),
-- obsługa żądań HTTP (GET, POST, PUT, DELETE),
-- testowanie endpointów (Postman / REST Client),
-- wprowadzenie do Spring Data JPA,
-- konfiguracja bazy danych (H2),
-- projektowanie encji i relacji między nimi,
-- repozytoria JPA i zapytania metodowe (query methods),
-- udostępnianie repozytoriów jako REST endpoints (Spring Data REST).
+- tworzeniem aplikacji webowych w Spring Boot,
+- obsługą żądań HTTP i kontrolerów,
+- budową prostych serwisów aplikacyjnych,
+- tworzeniem interfejsów REST API,
+- podstawową pracą z danymi w aplikacji,
+- wprowadzeniem do Spring Data JPA i repozytoriów,
+- konfiguracją prostej bazy danych (H2),
+- testowaniem endpointów REST.
 
 ### Cel projektu
 
