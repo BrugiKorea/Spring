@@ -1,5 +1,5 @@
-Aplikacje backendowe w Spring Boot stworzone w ramach laboratoriów.
+Repozytorium zawiera zestaw laboratoriów z Spring Boot z przedmiotu programowania backendowego.
 
-Projekt obejmuje podstawy tworzenia aplikacji webowych i REST API w Javie, w tym obsługę żądań HTTP, pracę z kontrolerami oraz prostą strukturę serwisów.
+W ramach ćwiczeń były robione proste aplikacje webowe oraz REST API w Javie. Obejmowały one obsługę zapytań HTTP, kontrolery, serwisy oraz podstawową pracę z danymi.
 
-W dalszej części wykorzystano także podstawy Spring Data JPA i pracę z bazą danych H2.
+W kolejnych labach pojawiły się też podstawy Spring Data JPA i prosta baza danych H2.
