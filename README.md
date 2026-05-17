@@ -1,8 +1,8 @@
-# Spring Boot - Zadania Laboratoryjne
+# Spring Boot
 
 Repozytorium zawiera projekty zrealizowane w ramach laboratoriów z frameworka Spring Boot (Java 21, Maven).
 
 ## Struktura repozytorium (Branche)
 
-* **Branch A (MVC, Serwis i REST):** Aplikacja bazująca na kolekcji danych w pamięci (in-memory). Zawiera kontroler `@Controller` z widokami Thymeleaf i obsługą formularzy, testowanie zasięgu sesyjnego serwisu (`@SessionScope`) oraz kontroler `@RestController` implementujący operacje CRUD z obsługą błędów przez `ResponseEntity`.
-* **Branch B (Spring Data JPA & REST):** Integracja z relacyjną bazą danych H2. Implementacja modelu obiektowego w relacji jeden-do-wielu. Wykorzystanie `JpaRepository` do tworzenia zapytań ze stronicowaniem (`Pageable`) oraz automatyczna ekspozycja repozytoriów jako API REST za pomocą `@RepositoryRestResource`.
+* **Branch A (MVC & REST API):** Aplikacja z danymi w pamięci (`ArrayList`). Zawiera kontroler z widokami Thymeleaf do obsługi formularza i listy osób oraz kontroler `@RestController` do obsługi operacji CRUD przez API REST z obsługą błędów (`ResponseEntity`).
+* **Branch B (Spring Data JPA & REST):** Integracja z bazą danych H2. Implementacja relacji jeden-do-wielu dla encji `Location` i `WeatherData`. Wykorzystanie `JpaRepository` do tworzenia własnych zapytań ze stronicowaniem (`Pageable`) oraz automatyczne wystawienie endpointów API za pomocą `@RepositoryRestResource`.
