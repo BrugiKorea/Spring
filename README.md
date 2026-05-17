@@ -19,9 +19,3 @@ W ramach laboratoriów zrealizowano następujące zagadnienia:
 
 Celem laboratoriów było zdobycie praktycznych umiejętności w zakresie budowy aplikacji backendowych
 opartych o ekosystem Spring, w tym projektowania warstwy REST oraz integracji z bazą danych.
-
-### Struktura
-
-Repozytorium podzielone jest na dwa główne etapy:
-- **Branch A** – aplikacja webowa Spring Boot + REST API (bez bazy danych),
-- **Branch B** – aplikacja z wykorzystaniem Spring Data JPA i REST Repositories.
