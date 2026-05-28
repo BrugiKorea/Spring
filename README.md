@@ -1,8 +1,8 @@
 # Spring Boot
 
-Repozytorium zawiera projekty zrealizowane w ramach laboratoriów z frameworka Spring Boot (Java 21, Maven).
+This repository contains projects developed during the Spring Boot framework laboratory classes (Java 21, Maven).
 
-## Struktura repozytorium (Branche)
+## Repository Structure (Branches)
 
-* **Branch A (MVC & REST API):** Aplikacja z danymi w pamięci (`ArrayList`). Zawiera kontroler z widokami Thymeleaf do obsługi formularza i listy osób oraz kontroler `@RestController` do obsługi operacji CRUD przez API REST z obsługą błędów (`ResponseEntity`).
-* **Branch B (Spring Data JPA & REST):** Integracja z bazą danych H2. Implementacja relacji jeden-do-wielu dla encji `Location` i `WeatherData`. Wykorzystanie `JpaRepository` do tworzenia własnych zapytań ze stronicowaniem (`Pageable`) oraz automatyczne wystawienie endpointów API za pomocą `@RepositoryRestResource`.
+* **Branch A (MVC & REST API):** Application with in-memory data (`ArrayList`). It includes a controller with Thymeleaf views for handling a form and a list of people, as well as a `@RestController` for handling CRUD operations via a REST API with error handling (`ResponseEntity`).
+* **Branch B (Spring Data JPA & REST):** Integration with the H2 database. Implementation of a one-to-many relationship for `Location` and `WeatherData` entities. Utilization of `JpaRepository` to create custom queries with pagination (`Pageable`), and automatic exposure of API endpoints using `@RepositoryRestResource`.
